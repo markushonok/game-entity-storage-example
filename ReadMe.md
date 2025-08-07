@@ -1,16 +1,18 @@
-# Описание
-В этом проекте представлена система хранения данных игровых объектов из моих
-личных проектов.
+# Description
+This project presents a data storage system for game entities from my personal projects.
 
-# Цели
-Данное решение призвано:
-- сохранить типизацию и дух ОО-дизайна, избавившись от нижних приведений;
-- поддерживать простую тестируемость реализаций и возможность генерации фейков;
-- эффективно хранить миллионы игровых объектов в ОЗУ без ObjectHeader'а и ссылок;
+# Goals
+This solution aims to:
+- Preserve type safety and the spirit of OO design while eliminating downcasting.
+- Ensure testability of implementations and allow for easy fake generation.
+- Store millions of game entities efficiently in RAM without ObjectHeaders or references.
 
-# Соглашения
-- стиль отступов GNU;
-- запрет на нижнее приведение объектов;
-- прозрачность конструкторов и состояния объектов при их инстанцировании;
-- соблюдение SOLID, DRY, закона Деметры;
-- соблюдение CQS и уникальному принципу проекта — Noun-Verb Separation.
+# Conventions
+- GNU indentation style.
+- No downcasting of objects.
+- Transparent constructors and object state upon instantiation.
+- Adherence to SOLID, DRY, and the Law of Demeter.
+- Adherence to CQS and the project's unique principle — Noun-Verb Separation.
+
+# Reading
+Recommended tab width: 2 spaces.
