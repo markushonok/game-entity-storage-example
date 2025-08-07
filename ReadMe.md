@@ -1,11 +1,11 @@
 # Description
-This project presents a data storage system for game entities from my personal projects.
+This project presents highly efficient data storage system for game entities from my personal projects.
 
 # Goals
 This solution aims to:
 - Preserve type safety and the spirit of OO design while eliminating downcasting.
 - Ensure testability of implementations and allow for easy fake generation.
-- Store millions of game entities efficiently in RAM without ObjectHeaders or references.
+- Store millions of game entities efficiently in RAM without ObjectHeaders and references overhead.
 
 # Conventions
 - GNU indentation style.
